@@ -1,6 +1,7 @@
 import torch
 import torch.nn as nn
 import numpy
+import torchvision 
 
 class model(nn.Module):
     def __init__(self):
@@ -9,6 +10,11 @@ class model(nn.Module):
 
     def forward(self,x):
         pass
+
+
+class Generator(nn.Module):
+    def __init__(self):
+        super(Generator, self).__init__()
 
 
 if __name__ == "__main__":
